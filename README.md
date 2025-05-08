@@ -1,16 +1,16 @@
-# Navbar with CSS — Responsive Layout
+# Styling Hamburger Menu in Navbar with DOM
 
-This project focuses on creating a navigation bar using CSS. The first version uses display: inline-block, which is then iterated to display: flex for a more flexible layout. The project also implements media queries to make the navbar responsive across different screen sizes. The HTML content uses excerpts from Moby-Dick by Herman Melville.
+This project focuses on creating a navigation bar using CSS and DOM. The first version uses display: inline-block, which is then iterated to display: flex for a more flexible layout. The project also implements media queries to make the navbar responsive across different screen sizes. The HTML content uses excerpts from Moby-Dick by Herman Melville.
 
 ## Preview
-![Preview](src/default.png)
-![Preview](src/responsive.png)
+![Preview](src/defaultmobile.png)
+![Preview](src/hamburgermobile.png)
 
 
 ## Getting Started
 1. Clone this project:
 ```
-git clone https://github.com/ranandasatria/fgo24-css-navbar
+git clone https://github.com/ranandasatria/fgo24-dom-navbar
 ```
 
 2. Install the depedencies:
