@@ -10,3 +10,11 @@ hamburgerButton.addEventListener('click', function () {
 })
 
 
+document.addEventListener('click', function(event){
+    const clickedOnHamburger = hamburgerButton.contains(event.target)
+    const clickedInsideMenu = menu.contains(event.target)
+
+    if (menu.classList.contains('active')&& !clickedOnHamburger && !clickedInsideMenu){
+        menu.classList.remove('active')
+    }
+})
